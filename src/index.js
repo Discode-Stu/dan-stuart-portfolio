@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client"
 import App from "./App"
 import "./index.css"
 
+// React 17
 // ReactDOM.render(<App />, document.querySelector("#root"))
 
 const container = document.getElementById("root")
