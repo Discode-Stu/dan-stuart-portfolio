@@ -1,6 +1,5 @@
 {
   "name": "dan-stuart-portfolio",
-  "homepage": "https://dan-stuart-portfolio.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
