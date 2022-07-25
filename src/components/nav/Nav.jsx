@@ -3,6 +3,7 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai"
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi"
 import { RiServiceLine } from "react-icons/ri"
 import { useState } from "react"
+import { BsBriefcase } from "react-icons/bs"
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#")
@@ -36,6 +37,13 @@ const Nav = () => {
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <BsBriefcase />
       </a>
       <a
         href="#contact"

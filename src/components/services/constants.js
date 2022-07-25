@@ -1,73 +1,44 @@
 export const UIUX = "UI/UX Design"
-export const WD = "Web Development"
+export const FE = "Frontend Development"
 export const CC = "Content Creation"
+export const BE = "Backend Development"
 
 export const servicesList = [
   {
     type: UIUX,
     description:
-      "UIUX1 Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      "Design user interfaces and experiences for web and mobile applications",
   },
   {
     type: UIUX,
-    description:
-      "UIUX2 Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    description: "Create modern web designs for your applications",
   },
   {
-    type: UIUX,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    type: FE,
+    description: "Experienced ReactJS developer",
   },
   {
-    type: UIUX,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    type: FE,
+    description: "Component-based development",
   },
   {
-    type: UIUX,
-    description:
-      "UIUX5 Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    type: FE,
+    description: "Small, reusable functions desigend to solve one problem",
   },
   {
-    type: WD,
-    description:
-      "WD1 Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    type: FE,
+    description: "Expert file organization",
   },
   {
-    type: WD,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    type: BE,
+    description: "Clean, fast, easy to use API's",
   },
   {
-    type: WD,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    type: BE,
+    description: "Organized databases",
   },
   {
-    type: WD,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  },
-  {
-    type: WD,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  },
-  {
-    type: WD,
-    description:
-      "WD 6 Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  },
-  {
-    type: CC,
-    description:
-      "CC1 Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  },
-  {
-    type: CC,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  },
-  {
-    type: CC,
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  },
-  {
-    type: CC,
-    description:
-      "CC4 Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+    type: BE,
+    description: "Efficient database queries",
   },
 ]

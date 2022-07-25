@@ -1,8 +1,8 @@
 import "./about.css"
 import ME from "../../assets/about-me.jpg"
-import { FaAward } from "react-icons/fa"
-import { FiUsers } from "react-icons/fi"
-import { VscFolderLibrary } from "react-icons/vsc"
+// import { FaAward } from "react-icons/fa"
+// import { FiUsers } from "react-icons/fi"
+// import { VscFolderLibrary } from "react-icons/vsc"
 
 const About = () => {
   return (
@@ -17,7 +17,7 @@ const About = () => {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
@@ -33,12 +33,14 @@ const About = () => {
               <h5>Projects</h5>
               <small>80+ Completed</small>
             </article>
-          </div>
+          </div> */}
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
-            hic, voluptatum velit iste unde vel totam illum cum accusamus qui ad
-            eveniet quibusdam, eligendi, ducimus dolor. Magni eius aspernatur
-            sint.
+            I am a full stack developer with a passion for building beautiful
+            and functional websites. I am looking for a company that can
+            challenge me and help me grow as a developer. I am currently working
+            as a full stack developer at a startup called Couchtour.tv. My
+            greatest strength is my ability to learn new technologies and build
+            a product that is user friendly and easy to use.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

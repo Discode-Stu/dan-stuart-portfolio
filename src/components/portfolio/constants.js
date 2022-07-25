@@ -1,49 +1,32 @@
 import FC from "../../assets/FC.png"
-import COMP from "../../assets/about-me1.jpg"
+import COMP from "../../assets/amzn.png"
 import BG from "../../assets/bg.jpg"
-import COMP1 from "../../assets/about-me.jpg"
+import COMP1 from "../../assets/cttv.png"
+
+export const PRIV = "private"
 
 export const portfolioItems = [
   {
     id: 1,
     img: FC,
     title: "Fighting Covid",
-    github: "https://www.github.com",
-    demo: "https://www.google.com",
+    github: "https://github.com/Discode-Stu/fighting-covid",
+    demo: "https://62deff25dbe350153e804c77--singular-raindrop-5b6813.netlify.app/",
   },
   {
     id: 2,
-    img: COMP,
+    img: COMP1,
     title: "Couchtour.tv",
-    github: "https://www.github.com",
-    demo: "https://www.youtube.com",
+    github: "",
+    demo: "",
+    option: "This project is still in development. Coming to the public soon!",
+    priv: true,
   },
   {
     id: 3,
-    img: BG,
-    title: "Birthday Countdown",
-    github: "https://www.github.com",
-    demo: "https://www.google.com",
-  },
-  {
-    id: 4,
-    img: COMP1,
-    title: "Amazona",
-    github: "https://www.github.com",
-    demo: "https://www.facebook.com",
-  },
-  {
-    id: 5,
     img: COMP,
-    title: "YOYO",
-    github: "https://www.github.com",
-    demo: "https://www.google.com",
-  },
-  {
-    id: 6,
-    img: FC,
-    title: "Another cool item",
-    github: "https://www.github.com",
-    demo: "https://www.youtube.com",
+    title: "Amazona",
+    github: "https://github.com/Discode-Stu/amazona",
+    demo: "https://amazona-ds.herokuapp.com/",
   },
 ]

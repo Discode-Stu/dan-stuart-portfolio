@@ -6,22 +6,31 @@ const INT = "Intermediate"
 const BAS = "Basic"
 
 const frontEndSkillsList = [
+  { skill: "React", level: EXP },
+  { skill: "Redux", level: INT },
+  { skill: "React Native", level: INT },
+  { skill: "Next.js", level: BAS },
   { skill: "HTML", level: EXP },
   { skill: "CSS", level: EXP },
   { skill: "Javascript", level: EXP },
-  { skill: "React", level: EXP },
-  { skill: "Tailwind", level: INT },
   { skill: "SCSS", level: EXP },
+  { skill: "Tailwind", level: BAS },
+  { skill: "Figma", level: BAS },
+  { skill: "AdobeXD", level: BAS },
+  { skill: "Stripe", level: INT },
 ]
 const backEndSkillsList = [
   { skill: "Node JS", level: INT },
   { skill: "Python", level: BAS },
+  { skill: "Flask", level: BAS },
   { skill: "Express", level: INT },
   { skill: "AWS", level: INT },
   { skill: "GraphQL", level: INT },
   { skill: "MongoDB", level: BAS },
   { skill: "MySQL", level: BAS },
   { skill: "Firebase", level: BAS },
+  { skill: "TypeScript", level: BAS },
+  { skill: "Stripe", level: INT },
   { skill: "Redis", level: BAS },
 ]
 
