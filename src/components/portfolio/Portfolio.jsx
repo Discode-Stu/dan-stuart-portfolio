@@ -1,6 +1,6 @@
 import "./portfolio.css"
 import React from "react"
-import { portfolioItems, PRIV } from "./constants"
+import { portfolioItems } from "./constants"
 
 const Portfolio = () => {
   return (

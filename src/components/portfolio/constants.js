@@ -1,6 +1,6 @@
 import FC from "../../assets/FC.png"
 import COMP from "../../assets/amzn.png"
-import BG from "../../assets/bg.jpg"
+import PIZZA from "../../assets/pizza.png"
 import COMP1 from "../../assets/cttv.png"
 
 export const PRIV = "private"
@@ -28,5 +28,12 @@ export const portfolioItems = [
     title: "Amazona",
     github: "https://github.com/Discode-Stu/amazona",
     demo: "https://amazona-ds.herokuapp.com/",
+  },
+  {
+    id: 4,
+    img: PIZZA,
+    title: "Pizza Restaurant Website",
+    github: "https://github.com/Discode-Stu/devcamp-pizza",
+    demo: "https://nostalgic-hoover-094249.netlify.app/index.html",
   },
 ]
