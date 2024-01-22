@@ -9,7 +9,16 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {portfolioItems.map(
-          ({ id, img, title, github, demo, option = "", priv = false }) => (
+          ({
+            id,
+            img,
+            title,
+            github,
+            demo,
+            option = "",
+            priv = false,
+            demoBtnText = "Live Demo",
+          }) => (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={img} alt="" />
@@ -20,22 +29,28 @@ const Portfolio = () => {
                 <>{option}</>
               ) : (
                 <div className="portfolio__item-cta">
-                  <a
-                    href={github}
-                    className="btn"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Github
-                  </a>
-                  <a
-                    href={demo}
-                    className="btn btn-primary"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    Live Demo
-                  </a>
+                  {github && (
+                    <a
+                      href={github}
+                      className="btn"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Github
+                    </a>
+                  )}
+                  {demo ? (
+                    <a
+                      href={demo}
+                      className="btn btn-primary"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      {demoBtnText}
+                    </a>
+                  ) : (
+                    <p>Live Demo coming soon!</p>
+                  )}
                 </div>
               )}
             </article>
