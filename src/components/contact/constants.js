@@ -5,8 +5,8 @@ import { BsWhatsapp } from "react-icons/bs"
 export const data = [
   {
     h4: "Email",
-    h5: "StuHeadz@gmail.com",
-    href: "mailto:stuheadz@gmail.com",
+    h5: "DStuart.Engineer@gmail.com",
+    href: "mailto:dstuart.engineer@gmail.com",
     icon: <MdOutlineEmail className="contact__option-icon" />,
   },
   {

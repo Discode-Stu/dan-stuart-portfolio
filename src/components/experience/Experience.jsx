@@ -8,9 +8,10 @@ const BAS = "Basic"
 const frontEndSkillsList = [
   { skill: "React", level: EXP },
   { skill: "Redux", level: EXP },
+  { skill: "Redux Toolkit", level: EXP },
+  { skill: "Redux Toolkit Query", level: EXP },
   { skill: "React Native", level: INT },
-  { skill: "RTK", level: EXP },
-  { skill: "RTK Query", level: EXP },
+  { skill: "Typescript", level: INT },
   { skill: "Next.js", level: EXP },
   { skill: "HTML", level: EXP },
   { skill: "CSS", level: EXP },
@@ -31,7 +32,6 @@ const backEndSkillsList = [
   { skill: "MongoDB", level: BAS },
   { skill: "MySQL", level: BAS },
   { skill: "Firebase", level: BAS },
-  { skill: "TypeScript", level: BAS },
   { skill: "Stripe", level: INT },
   { skill: "Redis", level: BAS },
 ]
